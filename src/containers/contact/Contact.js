@@ -49,6 +49,18 @@ export default function Contact() {
               </a>
               <br />
               <br />
+              <br />
+              <a
+                className="contact-detail-freelancer"
+                href={contactInfo.freelancer_profile}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {"freelancer profile"}
+              </a>
+              <br />
+              <br />
+              <br />
               <SocialMedia />
             </div>
           </div>
